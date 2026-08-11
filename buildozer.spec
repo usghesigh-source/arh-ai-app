@@ -22,6 +22,12 @@ version = 1.0
 # comma separated e.g. requirements = sqlite3,kivy
 requirements = python3,kivy
 
+# (int) Target Android API, should be as high as possible.
+android.api = 33
+
+# (int) Android SDK version to use
+android.sdk = 33
+
 # (str) Supported orientations
 orientation = portrait
 
