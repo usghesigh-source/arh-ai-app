@@ -30,9 +30,6 @@ android.minapi = 21
 # (int) Android SDK version to use
 android.sdk = 33
 
-# (int) Android NDK version to use
-android.ndk = 25b
-
 # (str) Supported orientations
 orientation = portrait
 
