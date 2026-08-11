@@ -22,13 +22,13 @@ version = 1.0
 requirements = python3,kivy
 
 # (int) Target Android API
-android.api = 31
+android.api = 33
 
 # (int) Minimum Android API
 android.minapi = 21
 
 # (int) Android SDK version to use
-android.sdk = 31
+android.sdk = 33
 
 # (str) Supported orientations
 orientation = portrait
