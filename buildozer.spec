@@ -9,24 +9,26 @@ package.name = arhiapp
 # (str) Package domain (needed for android packaging)
 package.domain = org.arh
 
-# (str) Source files to include (let it find everything in the current directory)
+# (str) Source files to include
 source.dir = .
 
-# (list) Source files to include (let it include common extensions)
+# (list) Source files to include
 source.include_exts = py,png,jpg,kv,atlas
 
 # (str) Application versioning
 version = 1.0
 
 # (list) Application requirements
-# comma separated e.g. requirements = sqlite3,kivy
 requirements = python3,kivy
 
-# (int) Target Android API, should be as high as possible.
-android.api = 33
+# (int) Target Android API
+android.api = 31
+
+# (int) Minimum Android API
+android.minapi = 21
 
 # (int) Android SDK version to use
-android.sdk = 33
+android.sdk = 31
 
 # (str) Supported orientations
 orientation = portrait
