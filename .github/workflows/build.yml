@@ -37,4 +37,3 @@ jobs:
           mkdir -p ~/.android
           touch ~/.android/repositories.cfg
           yes | buildozer -v android debug
-          
